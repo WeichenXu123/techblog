@@ -9,8 +9,8 @@ is_index: true
       {% include post.html %}
     {% endfor %}
 	
-	<div class="pagination" id="bottom_page">
-		<ul>
+	<nav id="bottom_page">
+		<ul class="pager">
 			{% if paginator.previous_page %}
 				{% if paginator.previous_page == 1 %}
 				<li class="previous"><a href="{{ linkhome }}">&larr; Previous</a></li>
@@ -23,6 +23,6 @@ is_index: true
 				<li class="next"><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next &rarr;</a></li>
 			{% endif %}
 		</ul>
-	</div>
+	</nav>
 
 {% include footer.html %}
