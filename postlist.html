@@ -1,8 +1,10 @@
 ---
-layout: nil
+layout: default
 ---
 
-[
+<script>
+
+var postlist = [
 {% for post in site.posts %}
   {"title":"{{post.title}}",
   "url":"{{site.url}}{{post.url}}",
@@ -11,3 +13,4 @@ layout: nil
   {% if forloop.last == false %},{% endif %}{% endfor %}
 ]
 
+</script>
