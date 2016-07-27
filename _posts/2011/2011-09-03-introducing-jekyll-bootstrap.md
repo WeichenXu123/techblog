@@ -39,10 +39,10 @@ For more information on Jekyll, visit their [wiki on github](https://github.com/
 
 ![](https://www.baidu.com/img/bd_logo1.png)
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-```javascript
+{% highlight javascript %}
 var s = "hello";
 alert(s);
 for(var i = 0; i < 3; ++i)
 	alert(s);
-```
+{% endhighlight %}
 For more information on github pages: [http://pages.github.com](http://pages.github.com).
