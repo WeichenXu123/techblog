@@ -3,7 +3,8 @@ permalink: /:year/:title/
 paginate: 10
 exclude: []
 name: WeichenXu123
-baseurl: /MyBlog/
+baseurl: /MyBlog
 mysitetitle: "Weichen Xu's Tech Blog"
 myemail: "WeichenXu123 at outlook.com"
-aboutme: "Spark contributor, Machine learning researcher"
+aboutmelink: "/2011/introducing-jekyll-bootstrap/"
+
