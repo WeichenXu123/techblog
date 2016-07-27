@@ -41,10 +41,12 @@ For more information on Jekyll, visit their [wiki on github](https://github.com/
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
 ```javascript
+{% highlight javascript linenos %}
 var s = "hello";
 alert(s);
 for(var i = 0; i < 3; ++i)
 	alert(s);
+{% endhighlight %}
 ```
 
 For more information on github pages: [http://pages.github.com](http://pages.github.com).
