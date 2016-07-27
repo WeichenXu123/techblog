@@ -2,7 +2,7 @@
 
 title: Introducing Jekyll Bootstrap
 layout: default
-
+tags: [algorithm, main]
 ---
 
 Jekyll bootstrap is a theme for jekyll which uses the [twitter bootstrap css framework](https://github.com/twitter/bootstrap).
