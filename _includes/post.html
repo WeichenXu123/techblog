@@ -21,8 +21,9 @@
 		<h3>
 			Published on {{ post.date | date:'%d %B %Y' }}
 			<br/>
-			<br/>
 			<small>
+			Tags:
+			<br/>
 			{% for tag in post.tags %}
 			{{ tag }}
 			<br/>
