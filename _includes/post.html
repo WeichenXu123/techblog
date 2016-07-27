@@ -18,12 +18,14 @@
     </div><!--content-->
 
 	<div class="col-md-4 sidebar">
-		<h4 class="title">
+		<h4>
+			<br/>
 			{{ post.date | date:'%d %B %Y' }}
 			<br/>
 			<small>
 			{% for tag in post.tags %}
 			{{ tag }}
+			<br/>
 			{% endfor %}
 			</small>
 		</h4>
