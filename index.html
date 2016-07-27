@@ -21,6 +21,8 @@ is_index: true
 			{% endif %}
 			{% if paginator.next_page %}
 				<li><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next &rarr;</a></li>
+			{% else % }
+				<li class="disabled"><a href="#">Next &rarr;</a></li>
 			{% endif %}
 		</ul>
 	</nav>
