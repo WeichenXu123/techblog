@@ -19,11 +19,12 @@
 
 	<div class="col-md-4 sidebar">
 		<h4>
+			<p>&nbsp;</p>
 			<p class="text-info">Published on {{ post.date | date:'%d %B %Y' }}</p>
 			<br/>
-			<p class="text-muted">
+			<span class="text-muted">
 			Tags:
-			</p>
+			</span>
 			&nbsp;
 			<p class="text-primary">
 			{% for tag in post.tags %}
