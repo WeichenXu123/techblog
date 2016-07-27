@@ -18,7 +18,7 @@ is_index: true
 				<li><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">&larr; Previous</a></li>
 				{% endif %}
 			{% endif %}
-				<li><p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p></li>
+				<li><a href='#'>Page {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
 			{% if paginator.next_page %}
 				<li><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next &rarr;</a></li>
 			{% endif %}
