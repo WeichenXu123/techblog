@@ -40,7 +40,7 @@ For more information on Jekyll, visit their [wiki on github](https://github.com/
 ![](https://www.baidu.com/img/bd_logo1.png)
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
-{% highlight scala linenos %}
+{% highlight scala %}
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
@@ -51,7 +51,7 @@ object WordCount {
        System.err.println("Usage: <file>")
        System.exit(1)
      }
- 
+     //hhee
      val conf = new SparkConf()
      val sc = new SparkContext(conf)
      val line = sc.textFile(args(0))
@@ -61,6 +61,40 @@ object WordCount {
      sc.stop()
    }
 }
+{% endhighlight %}
+
+{% highlight python %}class student:  
+        name=""  
+        age=0  
+        __weight=0  
+        def __init__(self,n,a,w):  
+                self.name=n  
+                self.age=a  
+                self.__weight=w  
+        def speak(self):  
+                print("%s say I am %d years old weight is %d kg" \  
+                %(self.name,self.age,self.__weight))  
+  
+stu=student('luren',20,70)  
+stu.speak()  
+print stu.name  
+#error because __XXXX is private ,it only can be used in class   
+#print stu.__weight   
+
+{% endhighlight %}
+
+{% highlight r %}
+mat <- matrix(c(1:4), 2, 2)
+layout(mat)
+plot(1:10)
+text(5, 5, labels = "plot(1:10)")
+
+plot(1:10, cos(1:10))
+text(5, 5, labels = "plot(1:10, cos(1:10))")
+> 
+sunflowerplot(1:10, 1:10)
+
+pie(c(0.1, 0.2, 0.3, 0.4))
 {% endhighlight %}
 
 For more information on github pages: [http://pages.github.com](http://pages.github.com).
