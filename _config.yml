@@ -1,6 +1,7 @@
 # Jekyll
 permalink: /:year/:title/
 paginate: 3
+include: ["others"]
 exclude: []
 name: "WeichenXu's Tech Blog"
 baseurl: /techblog
