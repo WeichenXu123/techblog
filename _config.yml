@@ -5,7 +5,6 @@ exclude: []
 name: WeichenXu123
 baseurl: /MyBlog
 mysitetitle: "Weichen Xu's Tech Blog"
-myemail: "WeichenXu123 at outlook.com"
 aboutmelink: "/2011/introducing-jekyll-bootstrap/"
 highlighter: rouge
 highlight: true
