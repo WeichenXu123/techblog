@@ -40,9 +40,25 @@ For more information on Jekyll, visit their [wiki on github](https://github.com/
 ![](https://www.baidu.com/img/bd_logo1.png)
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 {% highlight javascript linenos %}
-var s = "hello";
-alert(s);
-for(var i = 0; i < 3; ++i)
-	alert(s);
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+
+object WordCount {
+   def main(args: Array[String]) {
+     if (args.length < 1) {
+       System.err.println("Usage: <file>")
+       System.exit(1)
+     }
+ 
+     val conf = new SparkConf()
+     val sc = new SparkContext(conf)
+     val line = sc.textFile(args(0))
+ 
+     line.flatMap(_.split(" ")).map((_, 1)).reduceByKey(_+_).collect().foreach(println)
+ 
+     sc.stop()
+   }
+}
 {% endhighlight %}
 For more information on github pages: [http://pages.github.com](http://pages.github.com).
