@@ -37,4 +37,6 @@ The `baseurl` field is used for the css files and pagination, if you are hosting
 
 For more information on Jekyll, visit their [wiki on github](https://github.com/mojombo/jekyll/wiki).
 
+![](https://www.baidu.com/img/bd_logo1.png =100)
+
 For more information on github pages: [http://pages.github.com](http://pages.github.com).
