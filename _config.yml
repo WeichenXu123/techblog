@@ -5,4 +5,5 @@ exclude: []
 name: WeichenXu123
 baseurl: /MyBlog/
 mysitetitle: "Weichen Xu's Tech Blog"
-myeail: "WeichenXu123 at outlook.com"
+myemail: "WeichenXu123 at outlook.com"
+aboutme: "Spark contributor, Machine learning researcher"
