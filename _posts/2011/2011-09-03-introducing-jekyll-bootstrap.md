@@ -39,6 +39,7 @@ For more information on Jekyll, visit their [wiki on github](https://github.com/
 
 ![](https://www.baidu.com/img/bd_logo1.png)
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
 {% highlight java %}
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
@@ -61,4 +62,5 @@ object WordCount {
    }
 }
 {% endhighlight %}
+
 For more information on github pages: [http://pages.github.com](http://pages.github.com).
