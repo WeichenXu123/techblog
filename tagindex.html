@@ -59,7 +59,7 @@ $(function(){
 			var $tags = $("<h4></h4>")
 			for(var j in post.tags){
 				var tag = post.tags[j]
-				$tags.append("<span class='label label-success'>" + tag + "</span>")
+				$tags.append("<span class='label label-success'>" + tag + "</span><span>&nbsp;</span>")
 			}
 			$item.append($tags)
 			$('#showList').append($item)
