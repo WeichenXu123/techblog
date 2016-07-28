@@ -1,7 +1,7 @@
   {% if page.is_index %}{% assign content = post.content %}{% endif %}
     
 <div class="row">
-	<div style="text-align:center;" class="col-md-8 content">
+	<div class="col-md-8 content">
 		<div class="page-header">
 		<h2 class="title">
 			{% if page.is_index %}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -18,7 +18,7 @@
 			{{ content }}
 			{% endif %}
 		</div>
-    </div><!--content-->
+    </div>
 
    <!--
 	<div class="col-md-4 sidebar">
