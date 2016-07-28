@@ -3,8 +3,7 @@ permalink: /:year/:title/
 paginate: 3
 exclude: []
 name: "WeichenXu's Tech Blog"
-baseurl: /MyBlog
-mysitetitle: "Weichen Xu's Tech Blog"
+baseurl: /techblog
 aboutmelink: "/2011/introducing-jekyll-bootstrap/"
 highlighter: rouge
 highlight: true
