@@ -44,6 +44,7 @@ $(function(){
 		$('#TagContainer>h3').append($("<span style='display:inline-block;cursor:pointer;' class='label label-default'>" + tag + "</span><span>&nbsp;</span>"))
 	}
 	$("#TagContainer span.label").click(function(){
+		$('#showList').clear()
 		$("#TagContainer span.label").removeClass("label-success")
 		$("#TagContainer span.label").addClass("label-default")
 		$(this).removeClass("label-default")
@@ -55,7 +56,7 @@ $(function(){
 				continue;
 			var $item = $("<div class='page-header'><div>")
 			$item.append("<h2 class='title'><a href='{{ site.baseurl }}" + post.url + "'>" + post.title + "</a><small>" + post.date + "</small></h2>")
-			var $tags = $("h4")
+			var $tags = $("<h4></h4>")
 			for(var j in post.tags){
 				var tag = post.tags[j]
 				$tags.append("<span class='label label-success'>" + tag + "</span>")
@@ -64,6 +65,7 @@ $(function(){
 			$('#showList').append($item)
 		}
 	})
+	$("#TagContainer>h2>span.label-success").click()
 
 })
 </script>
