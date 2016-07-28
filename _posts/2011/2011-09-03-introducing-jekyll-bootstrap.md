@@ -38,7 +38,12 @@ The `baseurl` field is used for the css files and pagination, if you are hosting
 For more information on Jekyll, visit their [wiki on github](https://github.com/mojombo/jekyll/wiki).
 
 ![](https://www.baidu.com/img/bd_logo1.png)
+
+xxt
+
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
+xxx
 
 {% highlight scala %}
 import org.apache.spark.SparkConf
