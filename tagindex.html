@@ -38,7 +38,7 @@ for(var i in postlist){
 $(function(){
 	for(var i in tagList){
 		var tag = tagList[i]
-		$('#TagContainer').append($("<span style='display:inline-block;cursor:pointer;' class='label label-default'>" + tag + "</span><span>&nbsp;</span>"))
+		$('#TagContainer>h3').append($("<span style='display:inline-block;cursor:pointer;' class='label label-default'>" + tag + "</span><span>&nbsp;</span>"))
 	}
 	$("#TagContainer span.label").click(function(){
 		$("#TagContainer span.label").removeClass("label-success")
