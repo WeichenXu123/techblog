@@ -14,7 +14,7 @@ is_index: true
 		<ul class="pager">
 			{% if paginator.previous_page %}
 				{% if paginator.previous_page == 1 %}
-				<li><a href="{{ linkhome }}">&larr; Previous</a></li>
+				<li><a href="{{ site.baseurl }}">&larr; Previous</a></li>
 				{% else %}
 				<li><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">&larr; Previous</a></li>
 				{% endif %}
