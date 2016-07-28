@@ -44,7 +44,7 @@ $(function(){
 		$('#TagContainer>h3').append($("<span style='display:inline-block;cursor:pointer;' class='label label-default'>" + tag + "</span><span>&nbsp;</span>"))
 	}
 	$("#TagContainer span.label").click(function(){
-		$('#showList').clear()
+		$('#showList').empty()
 		$("#TagContainer span.label").removeClass("label-success")
 		$("#TagContainer span.label").addClass("label-default")
 		$(this).removeClass("label-default")
