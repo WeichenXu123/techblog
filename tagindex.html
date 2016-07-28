@@ -53,7 +53,7 @@ $(function(){
 			var post = postlist[i];
 			if(key != "Show All" && post.tags.indexOf(key) == -1)
 				continue;
-			var $item = $("<div class="page-header"><div>")
+			var $item = $("<div class='page-header'><div>")
 			$item.append("<h2 class='title'><a href='{{ site.baseurl }}" + post.url + "'>" + post.title + "</a><small>" + post.date + "</small></h2>")
 			var $tags = $("h4")
 			for(var j in post.tags){
