@@ -26,8 +26,12 @@ for(var i in postlist){
 
 </script>
 
-<div class="page-header">
-<h3 id='TagContainer' style="text-align:center;">
+<div class="page-header" id='TagContainer'>
+
+<h2 style="text-align:center;">
+<span style='display:inline-block;cursor:pointer;' class='label label-success'>Show All</span>
+</h2>
+<h3 style="text-align:center;">
 </h3>
 
 <script>
@@ -36,9 +40,9 @@ $(function(){
 		var tag = tagList[i]
 		$('#TagContainer').append($("<span style='display:inline-block;cursor:pointer;' class='label label-default'>" + tag + "</span><span>&nbsp;</span>"))
 	}
-	$("#TagContainer>span.label").click(function(){
-		$("#TagContainer>span.label").removeClass("label-success")
-		$("#TagContainer>span.label").addClass("label-default")
+	$("#TagContainer span.label").click(function(){
+		$("#TagContainer span.label").removeClass("label-success")
+		$("#TagContainer span.label").addClass("label-default")
 		$(this).removeClass("label-default")
 		$(this).addClass("label-success")
 	})
