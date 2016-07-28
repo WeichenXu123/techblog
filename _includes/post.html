@@ -1,9 +1,5 @@
   {% if page.is_index %}{% assign content = post.content %}{% endif %}
     
-<div class="row">
-	<div class="col-md-2">
-	</div>
-	<div class="col-md-8 content">
 		<div class="page-header">
 		<h2 class="title">
 			{% if page.is_index %}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -26,28 +22,3 @@
 			{{ content }}
 			{% endif %}
 		</div>
-    	</div>
-	<div class="col-md-2">
-        </div>
-   <!--
-	<div class="col-md-4 sidebar">
-		<h4>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<p class="text-info">Published on {{ post.date | date:'%d %B %Y' }}</p>
-			<br/>
-			<span class="text-muted">
-			Tags:
-			</span>
-			&nbsp;
-			<span class="text-primary">
-			{% for tag in post.tags %}
-			{{ tag }}
-			&nbsp;
-			{% endfor %}
-			</span>
-		</h4>
-	</div>
-   -->
-</div>
-
